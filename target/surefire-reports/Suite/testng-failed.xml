@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.blazedemo.utils.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <parameter name="OS" value="Windows-11"/>
+    <parameter name="bName" value="chrome"/>
+    <classes>
+      <class name="com.blazedemo.tests.TC05BlankCreditCard">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testBlankCreditcard"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.blazedemo.tests.TC05BlankCreditCard -->
+      <class name="com.blazedemo.tests.TC07SameDepartAndDestinCity">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testSameDepartAndDestination"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.blazedemo.tests.TC07SameDepartAndDestinCity -->
+      <class name="com.blazedemo.tests.TC06InvalidCreditCardCharacter">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testInvalidCardCharaters"/>
+        </methods>
+      </class> <!-- com.blazedemo.tests.TC06InvalidCreditCardCharacter -->
+      <class name="com.blazedemo.tests.TC04FlightBookingDataDrivenTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testBookingBydataDriven" invocation-numbers="1 2"/>
+        </methods>
+      </class> <!-- com.blazedemo.tests.TC04FlightBookingDataDrivenTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

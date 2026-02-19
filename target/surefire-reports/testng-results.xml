@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="5" failed="5" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-19T15:52:22 IST" name="Suite" finished-at="2026-02-19T15:53:56 IST" duration-ms="94635">
+    <groups>
+      <group name="Functional">
+        <method signature="TC02SearchFlightWithValidCities.searchFlightTest()[pri:0, instance:com.blazedemo.tests.TC02SearchFlightWithValidCities@4fad9bb2]" name="searchFlightTest" class="com.blazedemo.tests.TC02SearchFlightWithValidCities"/>
+      </group> <!-- Functional -->
+      <group name="Negative">
+        <method signature="TC05BlankCreditCard.testBlankCreditcard()[pri:0, instance:com.blazedemo.tests.TC05BlankCreditCard@3a12c404]" name="testBlankCreditcard" class="com.blazedemo.tests.TC05BlankCreditCard"/>
+        <method signature="TC06InvalidCreditCardCharacter.testInvalidCardCharaters()[pri:0, instance:com.blazedemo.tests.TC06InvalidCreditCardCharacter@1941a8ff]" name="testInvalidCardCharaters" class="com.blazedemo.tests.TC06InvalidCreditCardCharacter"/>
+        <method signature="TC07SameDepartAndDestinCity.testSameDepartAndDestination()[pri:0, instance:com.blazedemo.tests.TC07SameDepartAndDestinCity@22d7b4f8]" name="testSameDepartAndDestination" class="com.blazedemo.tests.TC07SameDepartAndDestinCity"/>
+      </group> <!-- Negative -->
+      <group name="Funtional">
+        <method signature="TC03CompleteFlightBooking.testcompleteBooking()[pri:0, instance:com.blazedemo.tests.TC03CompleteFlightBooking@517d4a0d]" name="testcompleteBooking" class="com.blazedemo.tests.TC03CompleteFlightBooking"/>
+      </group> <!-- Funtional -->
+      <group name="Data-driven">
+        <method signature="TC04FlightBookingDataDrivenTest.testBookingBydataDriven(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.tests.TC04FlightBookingDataDrivenTest@7862f56]" name="testBookingBydataDriven" class="com.blazedemo.tests.TC04FlightBookingDataDrivenTest"/>
+      </group> <!-- Data-driven -->
+      <group name="Smoke">
+        <method signature="FlightBookingTest.bookFlight()[pri:0, instance:com.blazedemo.tests.FlightBookingTest@421bba99]" name="bookFlight" class="com.blazedemo.tests.FlightBookingTest"/>
+        <method signature="TC01VerifyHomePageLoadsAndDropdownVisible.testHomePageLoadsAndDropdownVisible()[pri:0, instance:com.blazedemo.tests.TC01VerifyHomePageLoadsAndDropdownVisible@4b3ed2f0]" name="testHomePageLoadsAndDropdownVisible" class="com.blazedemo.tests.TC01VerifyHomePageLoadsAndDropdownVisible"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2026-02-19T15:52:22 IST" name="Test" finished-at="2026-02-19T15:53:56 IST" duration-ms="94635">
+      <class name="com.blazedemo.tests.TC01VerifyHomePageLoadsAndDropdownVisible">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.tests.TC01VerifyHomePageLoadsAndDropdownVisible@4b3ed2f0]" started-at="2026-02-19T15:52:32 IST" name="setUp" finished-at="2026-02-19T15:52:36 IST" duration-ms="3840" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows-11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testHomePageLoadsAndDropdownVisible()[pri:0, instance:com.blazedemo.tests.TC01VerifyHomePageLoadsAndDropdownVisible@4b3ed2f0]" started-at="2026-02-19T15:52:36 IST" name="testHomePageLoadsAndDropdownVisible" finished-at="2026-02-19T15:52:36 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePageLoadsAndDropdownVisible -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.tests.TC01VerifyHomePageLoadsAndDropdownVisible@4b3ed2f0]" started-at="2026-02-19T15:52:36 IST" name="tearDown" finished-at="2026-02-19T15:52:36 IST" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.blazedemo.tests.TC01VerifyHomePageLoadsAndDropdownVisible -->
+      <class name="com.blazedemo.tests.TC07SameDepartAndDestinCity">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.tests.TC07SameDepartAndDestinCity@22d7b4f8]" started-at="2026-02-19T15:53:52 IST" name="setUp" finished-at="2026-02-19T15:53:56 IST" duration-ms="3897" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows-11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSameDepartAndDestination()[pri:0, instance:com.blazedemo.tests.TC07SameDepartAndDestinCity@22d7b4f8]" started-at="2026-02-19T15:53:56 IST" name="testSameDepartAndDestination" finished-at="2026-02-19T15:53:56 IST" duration-ms="251" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Paris not available in destination dropdown expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Paris not available in destination dropdown expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.blazedemo.tests.TC07SameDepartAndDestinCity.testSameDepartAndDestination(TC07SameDepartAndDestinCity.java:18)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSameDepartAndDestination -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.tests.TC07SameDepartAndDestinCity@22d7b4f8]" started-at="2026-02-19T15:53:56 IST" name="tearDown" finished-at="2026-02-19T15:53:56 IST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.blazedemo.tests.TC07SameDepartAndDestinCity -->
+      <class name="com.blazedemo.tests.TC04FlightBookingDataDrivenTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.tests.TC04FlightBookingDataDrivenTest@7862f56]" started-at="2026-02-19T15:52:50 IST" name="setUp" finished-at="2026-02-19T15:52:52 IST" duration-ms="2334" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows-11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testBookingBydataDriven(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.tests.TC04FlightBookingDataDrivenTest@7862f56]" started-at="2026-02-19T15:52:55 IST" name="testBookingBydataDriven" data-provider="PassengerDetail" finished-at="2026-02-19T15:53:01 IST" duration-ms="5881" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kakrola]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NewDelhi]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[342345]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[American Express]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[34579024467]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[2027]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Sam smith]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBookingBydataDriven -->
+        <test-method signature="testBookingBydataDriven(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.tests.TC04FlightBookingDataDrivenTest@7862f56]" started-at="2026-02-19T15:53:01 IST" name="testBookingBydataDriven" data-provider="PassengerDetail" finished-at="2026-02-19T15:53:11 IST" duration-ms="10103" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alice]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sohna]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Gurugram]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Haryana]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[341209]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Visa]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[67548202767]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[2028]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Alice]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test failed due to exception: no such element: Unable to locate element: {"method":"xpath","selector":"//select[@name='fromPort']"}
+  (Session info: chrome=145.0.7632.77)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [29aca891999030f7d4759fa998561d4c, findElement {using=xpath, value=//select[@name='fromPort']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.77, chrome: {chromedriverVersion: 145.0.7632.77 (da516187054a..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52142}, goog:processID: 13188, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52142/devtoo..., se:cdpVersion: 145.0.7632.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 29aca891999030f7d4759fa998561d4c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test failed due to exception: no such element: Unable to locate element: {"method":"xpath","selector":"//select[@name='fromPort']"}
+  (Session info: chrome=145.0.7632.77)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [29aca891999030f7d4759fa998561d4c, findElement {using=xpath, value=//select[@name='fromPort']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.77, chrome: {chromedriverVersion: 145.0.7632.77 (da516187054a..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52142}, goog:processID: 13188, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52142/devtoo..., se:cdpVersion: 145.0.7632.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 29aca891999030f7d4759fa998561d4c
+at org.testng.Assert.fail(Assert.java:111)
+at com.blazedemo.tests.TC04FlightBookingDataDrivenTest.testBookingBydataDriven(TC04FlightBookingDataDrivenTest.java:70)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBookingBydataDriven -->
+        <test-method signature="testBookingBydataDriven(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.tests.TC04FlightBookingDataDrivenTest@7862f56]" started-at="2026-02-19T15:53:11 IST" name="testBookingBydataDriven" data-provider="PassengerDetail" finished-at="2026-02-19T15:53:21 IST" duration-ms="10075" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Macron]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rohtak]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Gurugram]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Haryana]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[678956]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Diner's Club]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[45346789016]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[2029]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Emanual]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test failed due to exception: no such element: Unable to locate element: {"method":"xpath","selector":"//select[@name='fromPort']"}
+  (Session info: chrome=145.0.7632.77)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [29aca891999030f7d4759fa998561d4c, findElement {using=xpath, value=//select[@name='fromPort']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.77, chrome: {chromedriverVersion: 145.0.7632.77 (da516187054a..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52142}, goog:processID: 13188, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52142/devtoo..., se:cdpVersion: 145.0.7632.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 29aca891999030f7d4759fa998561d4c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test failed due to exception: no such element: Unable to locate element: {"method":"xpath","selector":"//select[@name='fromPort']"}
+  (Session info: chrome=145.0.7632.77)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [29aca891999030f7d4759fa998561d4c, findElement {using=xpath, value=//select[@name='fromPort']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.77, chrome: {chromedriverVersion: 145.0.7632.77 (da516187054a..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52142}, goog:processID: 13188, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52142/devtoo..., se:cdpVersion: 145.0.7632.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 29aca891999030f7d4759fa998561d4c
+at org.testng.Assert.fail(Assert.java:111)
+at com.blazedemo.tests.TC04FlightBookingDataDrivenTest.testBookingBydataDriven(TC04FlightBookingDataDrivenTest.java:70)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBookingBydataDriven -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.tests.TC04FlightBookingDataDrivenTest@7862f56]" started-at="2026-02-19T15:53:21 IST" name="tearDown" finished-at="2026-02-19T15:53:22 IST" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.blazedemo.tests.TC04FlightBookingDataDrivenTest -->
+      <class name="com.blazedemo.tests.FlightBookingTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.tests.FlightBookingTest@421bba99]" started-at="2026-02-19T15:52:22 IST" name="setUp" finished-at="2026-02-19T15:52:26 IST" duration-ms="3840" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows-11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="bookFlight()[pri:0, instance:com.blazedemo.tests.FlightBookingTest@421bba99]" started-at="2026-02-19T15:52:26 IST" name="bookFlight" finished-at="2026-02-19T15:52:32 IST" duration-ms="6022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookFlight -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.tests.FlightBookingTest@421bba99]" started-at="2026-02-19T15:52:32 IST" name="tearDown" finished-at="2026-02-19T15:52:32 IST" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.blazedemo.tests.FlightBookingTest -->
+      <class name="com.blazedemo.tests.TC03CompleteFlightBooking">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.tests.TC03CompleteFlightBooking@517d4a0d]" started-at="2026-02-19T15:52:40 IST" name="setUp" finished-at="2026-02-19T15:52:44 IST" duration-ms="3365" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows-11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testcompleteBooking()[pri:0, instance:com.blazedemo.tests.TC03CompleteFlightBooking@517d4a0d]" started-at="2026-02-19T15:52:44 IST" name="testcompleteBooking" finished-at="2026-02-19T15:52:50 IST" duration-ms="5662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcompleteBooking -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.tests.TC03CompleteFlightBooking@517d4a0d]" started-at="2026-02-19T15:52:50 IST" name="tearDown" finished-at="2026-02-19T15:52:50 IST" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.blazedemo.tests.TC03CompleteFlightBooking -->
+      <class name="com.blazedemo.tests.TC02SearchFlightWithValidCities">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.tests.TC02SearchFlightWithValidCities@4fad9bb2]" started-at="2026-02-19T15:52:36 IST" name="setUp" finished-at="2026-02-19T15:52:39 IST" duration-ms="2235" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows-11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchFlightTest()[pri:0, instance:com.blazedemo.tests.TC02SearchFlightWithValidCities@4fad9bb2]" started-at="2026-02-19T15:52:39 IST" name="searchFlightTest" finished-at="2026-02-19T15:52:40 IST" duration-ms="1715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFlightTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.tests.TC02SearchFlightWithValidCities@4fad9bb2]" started-at="2026-02-19T15:52:40 IST" name="tearDown" finished-at="2026-02-19T15:52:40 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.blazedemo.tests.TC02SearchFlightWithValidCities -->
+      <class name="com.blazedemo.tests.TC06InvalidCreditCardCharacter">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.tests.TC06InvalidCreditCardCharacter@1941a8ff]" started-at="2026-02-19T15:53:40 IST" name="setUp" finished-at="2026-02-19T15:53:44 IST" duration-ms="3789" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows-11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidCardCharaters()[pri:0, instance:com.blazedemo.tests.TC06InvalidCreditCardCharacter@1941a8ff]" started-at="2026-02-19T15:53:44 IST" name="testInvalidCardCharaters" finished-at="2026-02-19T15:53:51 IST" duration-ms="7082" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[BUG: Booking succeeded even with invalid card Charaters expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: BUG: Booking succeeded even with invalid card Charaters expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at com.blazedemo.tests.TC06InvalidCreditCardCharacter.testInvalidCardCharaters(TC06InvalidCreditCardCharacter.java:57)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidCardCharaters -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.tests.TC06InvalidCreditCardCharacter@1941a8ff]" started-at="2026-02-19T15:53:51 IST" name="tearDown" finished-at="2026-02-19T15:53:52 IST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.blazedemo.tests.TC06InvalidCreditCardCharacter -->
+      <class name="com.blazedemo.tests.TC05BlankCreditCard">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.tests.TC05BlankCreditCard@3a12c404]" started-at="2026-02-19T15:53:22 IST" name="setUp" finished-at="2026-02-19T15:53:25 IST" duration-ms="3017" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows-11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testBlankCreditcard()[pri:0, instance:com.blazedemo.tests.TC05BlankCreditCard@3a12c404]" started-at="2026-02-19T15:53:25 IST" name="testBlankCreditcard" finished-at="2026-02-19T15:53:40 IST" duration-ms="15402" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[BUG: Booking succeeded even with blank credit card details expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: BUG: Booking succeeded even with blank credit card details expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at com.blazedemo.tests.TC05BlankCreditCard.testBlankCreditcard(TC05BlankCreditCard.java:56)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBlankCreditcard -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.tests.TC05BlankCreditCard@3a12c404]" started-at="2026-02-19T15:53:40 IST" name="tearDown" finished-at="2026-02-19T15:53:40 IST" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.blazedemo.tests.TC05BlankCreditCard -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

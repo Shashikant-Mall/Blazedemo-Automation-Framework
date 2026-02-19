@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    
+    <Properties>
+        <Property name="basepath">./logs</Property>
+    </Properties>
+
+    <Appenders>
+        <!-- Console Appender -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+
+        <!-- File Appender -->
+        <File name="File" fileName="${basepath}/selenium.log" append="true">
+            <PatternLayout>
+                <Pattern>%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n</Pattern>
+            </PatternLayout>
+        </File>
+
+        <!-- Rolling File Appender -->
+        <RollingFile name="RollingFile"
+                     fileName="${basepath}/selenium-rolling.log"
+                     filePattern="${basepath}/selenium-%d{yyyy-MM-dd}-%i.log.gz">
+            <PatternLayout>
+                <Pattern>%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+                <SizeBasedTriggeringPolicy size="10MB"/>
+            </Policies>
+        </RollingFile>
+    </Appenders>
+
+    <Loggers>
+    
+    <!-- Set logging level for your application -->
+        <Root level="Info"> <!-- Here we can use multiple log levels (All < Trace < Debug < Info < Warn < Fatal < Off) -->
+           <AppenderRef ref="Console"/>  <!-- ✅ ENABLED FOR CONSOLE OUTPUT -->
+            <AppenderRef ref="File"/>
+           <!-- <AppenderRef ref="RollingFile"/> -->
+        </Root>
+
+        <!-- Specific Logger for Selenium (optional) -->
+        <Logger name="org.openqa.selenium" level="Warn" additivity="false">
+            <AppenderRef ref="Console"/>
+        </Logger>
+    </Loggers>
+
+</Configuration>
