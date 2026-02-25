@@ -2,30 +2,30 @@
 <testng-results ignored="0" total="10" passed="7" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-19T16:08:55 IST" name="Suite" finished-at="2026-02-19T16:10:32 IST" duration-ms="96586">
+  <suite started-at="2026-02-25T22:30:42 IST" name="Suite" finished-at="2026-02-25T22:32:21 IST" duration-ms="99764">
     <groups>
       <group name="Functional">
-        <method signature="TC02SearchFlightWithValidCities.searchFlightTest()[pri:0, instance:com.blazedemo.tests.TC02SearchFlightWithValidCities@56113384]" name="searchFlightTest" class="com.blazedemo.tests.TC02SearchFlightWithValidCities"/>
+        <method signature="TC02SearchFlightWithValidCities.searchFlightTest()[pri:0, instance:com.blazedemo.tests.TC02SearchFlightWithValidCities@373ebf74]" name="searchFlightTest" class="com.blazedemo.tests.TC02SearchFlightWithValidCities"/>
       </group> <!-- Functional -->
       <group name="Negative">
-        <method signature="TC05BlankCreditCard.testBlankCreditcard()[pri:0, instance:com.blazedemo.tests.TC05BlankCreditCard@5f9678e1]" name="testBlankCreditcard" class="com.blazedemo.tests.TC05BlankCreditCard"/>
-        <method signature="TC06InvalidCreditCardCharacter.testInvalidCardCharaters()[pri:0, instance:com.blazedemo.tests.TC06InvalidCreditCardCharacter@c4ed84]" name="testInvalidCardCharaters" class="com.blazedemo.tests.TC06InvalidCreditCardCharacter"/>
-        <method signature="TC07SameDepartAndDestinCity.testSameDepartAndDestination()[pri:0, instance:com.blazedemo.tests.TC07SameDepartAndDestinCity@189aa67a]" name="testSameDepartAndDestination" class="com.blazedemo.tests.TC07SameDepartAndDestinCity"/>
+        <method signature="TC05BlankCreditCard.testBlankCreditcard()[pri:0, instance:com.blazedemo.tests.TC05BlankCreditCard@189aa67a]" name="testBlankCreditcard" class="com.blazedemo.tests.TC05BlankCreditCard"/>
+        <method signature="TC06InvalidCreditCardCharacter.testInvalidCardCharaters()[pri:0, instance:com.blazedemo.tests.TC06InvalidCreditCardCharacter@5a9d6f02]" name="testInvalidCardCharaters" class="com.blazedemo.tests.TC06InvalidCreditCardCharacter"/>
+        <method signature="TC07SameDepartAndDestinCity.testSameDepartAndDestination()[pri:0, instance:com.blazedemo.tests.TC07SameDepartAndDestinCity@362045c0]" name="testSameDepartAndDestination" class="com.blazedemo.tests.TC07SameDepartAndDestinCity"/>
       </group> <!-- Negative -->
       <group name="Funtional">
-        <method signature="TC03CompleteFlightBooking.testcompleteBooking()[pri:0, instance:com.blazedemo.tests.TC03CompleteFlightBooking@5669c5fb]" name="testcompleteBooking" class="com.blazedemo.tests.TC03CompleteFlightBooking"/>
+        <method signature="TC03CompleteFlightBooking.testcompleteBooking()[pri:0, instance:com.blazedemo.tests.TC03CompleteFlightBooking@5f9678e1]" name="testcompleteBooking" class="com.blazedemo.tests.TC03CompleteFlightBooking"/>
       </group> <!-- Funtional -->
       <group name="Data-driven">
-        <method signature="TC04FlightBookingDataDrivenTest.testBookingBydataDriven(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.tests.TC04FlightBookingDataDrivenTest@373ebf74]" name="testBookingBydataDriven" class="com.blazedemo.tests.TC04FlightBookingDataDrivenTest"/>
+        <method signature="TC04FlightBookingDataDrivenTest.testBookingBydataDriven(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.tests.TC04FlightBookingDataDrivenTest@c4ed84]" name="testBookingBydataDriven" class="com.blazedemo.tests.TC04FlightBookingDataDrivenTest"/>
       </group> <!-- Data-driven -->
       <group name="Smoke">
-        <method signature="FlightBookingTest.bookFlight()[pri:0, instance:com.blazedemo.tests.FlightBookingTest@66fdec9]" name="bookFlight" class="com.blazedemo.tests.FlightBookingTest"/>
-        <method signature="TC01VerifyHomePageLoadsAndDropdownVisible.testHomePageLoadsAndDropdownVisible()[pri:0, instance:com.blazedemo.tests.TC01VerifyHomePageLoadsAndDropdownVisible@340b9973]" name="testHomePageLoadsAndDropdownVisible" class="com.blazedemo.tests.TC01VerifyHomePageLoadsAndDropdownVisible"/>
+        <method signature="FlightBookingTest.bookFlight()[pri:0, instance:com.blazedemo.tests.FlightBookingTest@550a1967]" name="bookFlight" class="com.blazedemo.tests.FlightBookingTest"/>
+        <method signature="TC01VerifyHomePageLoadsAndDropdownVisible.testHomePageLoadsAndDropdownVisible()[pri:0, instance:com.blazedemo.tests.TC01VerifyHomePageLoadsAndDropdownVisible@5669c5fb]" name="testHomePageLoadsAndDropdownVisible" class="com.blazedemo.tests.TC01VerifyHomePageLoadsAndDropdownVisible"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2026-02-19T16:08:55 IST" name="Test" finished-at="2026-02-19T16:10:32 IST" duration-ms="96586">
+    <test started-at="2026-02-25T22:30:42 IST" name="Test" finished-at="2026-02-25T22:32:21 IST" duration-ms="99764">
       <class name="com.blazedemo.tests.TC01VerifyHomePageLoadsAndDropdownVisible">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.tests.TC01VerifyHomePageLoadsAndDropdownVisible@340b9973]" started-at="2026-02-19T16:09:09 IST" name="setUp" finished-at="2026-02-19T16:09:13 IST" duration-ms="3668" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.tests.TC01VerifyHomePageLoadsAndDropdownVisible@5669c5fb]" started-at="2026-02-25T22:31:00 IST" name="setUp" finished-at="2026-02-25T22:31:03 IST" duration-ms="2922" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,17 +41,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testHomePageLoadsAndDropdownVisible()[pri:0, instance:com.blazedemo.tests.TC01VerifyHomePageLoadsAndDropdownVisible@340b9973]" started-at="2026-02-19T16:09:13 IST" name="testHomePageLoadsAndDropdownVisible" finished-at="2026-02-19T16:09:13 IST" duration-ms="190" status="PASS">
+        <test-method signature="testHomePageLoadsAndDropdownVisible()[pri:0, instance:com.blazedemo.tests.TC01VerifyHomePageLoadsAndDropdownVisible@5669c5fb]" started-at="2026-02-25T22:31:03 IST" name="testHomePageLoadsAndDropdownVisible" finished-at="2026-02-25T22:31:03 IST" duration-ms="250" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHomePageLoadsAndDropdownVisible -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.tests.TC01VerifyHomePageLoadsAndDropdownVisible@340b9973]" started-at="2026-02-19T16:09:13 IST" name="tearDown" finished-at="2026-02-19T16:09:13 IST" duration-ms="233" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.tests.TC01VerifyHomePageLoadsAndDropdownVisible@5669c5fb]" started-at="2026-02-25T22:31:03 IST" name="tearDown" finished-at="2026-02-25T22:31:03 IST" duration-ms="210" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.blazedemo.tests.TC01VerifyHomePageLoadsAndDropdownVisible -->
       <class name="com.blazedemo.tests.TC07SameDepartAndDestinCity">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.tests.TC07SameDepartAndDestinCity@189aa67a]" started-at="2026-02-19T16:10:27 IST" name="setUp" finished-at="2026-02-19T16:10:31 IST" duration-ms="4723" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.tests.TC07SameDepartAndDestinCity@362045c0]" started-at="2026-02-25T22:32:18 IST" name="setUp" finished-at="2026-02-25T22:32:21 IST" duration-ms="2509" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -67,7 +67,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSameDepartAndDestination()[pri:0, instance:com.blazedemo.tests.TC07SameDepartAndDestinCity@189aa67a]" started-at="2026-02-19T16:10:31 IST" name="testSameDepartAndDestination" finished-at="2026-02-19T16:10:31 IST" duration-ms="251" status="FAIL">
+        <test-method signature="testSameDepartAndDestination()[pri:0, instance:com.blazedemo.tests.TC07SameDepartAndDestinCity@362045c0]" started-at="2026-02-25T22:32:21 IST" name="testSameDepartAndDestination" finished-at="2026-02-25T22:32:21 IST" duration-ms="204" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Paris not available in destination dropdown expected [true] but found [false]]]>
@@ -110,13 +110,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSameDepartAndDestination -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.tests.TC07SameDepartAndDestinCity@189aa67a]" started-at="2026-02-19T16:10:32 IST" name="tearDown" finished-at="2026-02-19T16:10:32 IST" duration-ms="205" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.tests.TC07SameDepartAndDestinCity@362045c0]" started-at="2026-02-25T22:32:21 IST" name="tearDown" finished-at="2026-02-25T22:32:21 IST" duration-ms="205" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.blazedemo.tests.TC07SameDepartAndDestinCity -->
       <class name="com.blazedemo.tests.TC04FlightBookingDataDrivenTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.tests.TC04FlightBookingDataDrivenTest@373ebf74]" started-at="2026-02-19T16:09:32 IST" name="setUp" finished-at="2026-02-19T16:09:37 IST" duration-ms="5357" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.tests.TC04FlightBookingDataDrivenTest@c4ed84]" started-at="2026-02-25T22:31:19 IST" name="setUp" finished-at="2026-02-25T22:31:25 IST" duration-ms="5614" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -132,7 +132,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testBookingBydataDriven(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.tests.TC04FlightBookingDataDrivenTest@373ebf74]" started-at="2026-02-19T16:09:37 IST" name="testBookingBydataDriven" data-provider="PassengerDetail" finished-at="2026-02-19T16:09:43 IST" duration-ms="5954" status="PASS">
+        <test-method signature="testBookingBydataDriven(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.tests.TC04FlightBookingDataDrivenTest@c4ed84]" started-at="2026-02-25T22:31:25 IST" name="testBookingBydataDriven" data-provider="PassengerDetail" finished-at="2026-02-25T22:31:30 IST" duration-ms="5513" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -188,11 +188,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBookingBydataDriven -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.tests.TC04FlightBookingDataDrivenTest@373ebf74]" started-at="2026-02-19T16:09:43 IST" name="tearDown" finished-at="2026-02-19T16:09:43 IST" duration-ms="246" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.tests.TC04FlightBookingDataDrivenTest@c4ed84]" started-at="2026-02-25T22:31:30 IST" name="tearDown" finished-at="2026-02-25T22:31:30 IST" duration-ms="246" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.tests.TC04FlightBookingDataDrivenTest@373ebf74]" started-at="2026-02-19T16:09:44 IST" name="setUp" finished-at="2026-02-19T16:09:46 IST" duration-ms="2682" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.tests.TC04FlightBookingDataDrivenTest@c4ed84]" started-at="2026-02-25T22:31:30 IST" name="setUp" finished-at="2026-02-25T22:31:33 IST" duration-ms="2484" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -208,7 +208,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testBookingBydataDriven(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.tests.TC04FlightBookingDataDrivenTest@373ebf74]" started-at="2026-02-19T16:09:46 IST" name="testBookingBydataDriven" data-provider="PassengerDetail" finished-at="2026-02-19T16:09:52 IST" duration-ms="5341" status="PASS">
+        <test-method signature="testBookingBydataDriven(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.tests.TC04FlightBookingDataDrivenTest@c4ed84]" started-at="2026-02-25T22:31:33 IST" name="testBookingBydataDriven" data-provider="PassengerDetail" finished-at="2026-02-25T22:31:39 IST" duration-ms="6006" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -264,11 +264,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBookingBydataDriven -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.tests.TC04FlightBookingDataDrivenTest@373ebf74]" started-at="2026-02-19T16:09:52 IST" name="tearDown" finished-at="2026-02-19T16:09:52 IST" duration-ms="206" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.tests.TC04FlightBookingDataDrivenTest@c4ed84]" started-at="2026-02-25T22:31:39 IST" name="tearDown" finished-at="2026-02-25T22:31:39 IST" duration-ms="232" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.tests.TC04FlightBookingDataDrivenTest@373ebf74]" started-at="2026-02-19T16:09:52 IST" name="setUp" finished-at="2026-02-19T16:09:54 IST" duration-ms="1916" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.tests.TC04FlightBookingDataDrivenTest@c4ed84]" started-at="2026-02-25T22:31:39 IST" name="setUp" finished-at="2026-02-25T22:31:42 IST" duration-ms="3179" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -284,7 +284,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testBookingBydataDriven(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.tests.TC04FlightBookingDataDrivenTest@373ebf74]" started-at="2026-02-19T16:09:54 IST" name="testBookingBydataDriven" data-provider="PassengerDetail" finished-at="2026-02-19T16:09:59 IST" duration-ms="5210" status="PASS">
+        <test-method signature="testBookingBydataDriven(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.tests.TC04FlightBookingDataDrivenTest@c4ed84]" started-at="2026-02-25T22:31:42 IST" name="testBookingBydataDriven" data-provider="PassengerDetail" finished-at="2026-02-25T22:31:48 IST" duration-ms="5914" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -340,13 +340,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBookingBydataDriven -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.tests.TC04FlightBookingDataDrivenTest@373ebf74]" started-at="2026-02-19T16:09:59 IST" name="tearDown" finished-at="2026-02-19T16:09:59 IST" duration-ms="282" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.tests.TC04FlightBookingDataDrivenTest@c4ed84]" started-at="2026-02-25T22:31:48 IST" name="tearDown" finished-at="2026-02-25T22:31:49 IST" duration-ms="252" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.blazedemo.tests.TC04FlightBookingDataDrivenTest -->
       <class name="com.blazedemo.tests.FlightBookingTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.tests.FlightBookingTest@66fdec9]" started-at="2026-02-19T16:08:56 IST" name="setUp" finished-at="2026-02-19T16:09:00 IST" duration-ms="4194" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.tests.FlightBookingTest@550a1967]" started-at="2026-02-25T22:30:42 IST" name="setUp" finished-at="2026-02-25T22:30:52 IST" duration-ms="9948" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -362,17 +362,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="bookFlight()[pri:0, instance:com.blazedemo.tests.FlightBookingTest@66fdec9]" started-at="2026-02-19T16:09:00 IST" name="bookFlight" finished-at="2026-02-19T16:09:09 IST" duration-ms="8723" status="PASS">
+        <test-method signature="bookFlight()[pri:0, instance:com.blazedemo.tests.FlightBookingTest@550a1967]" started-at="2026-02-25T22:30:52 IST" name="bookFlight" finished-at="2026-02-25T22:30:58 IST" duration-ms="5919" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookFlight -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.tests.FlightBookingTest@66fdec9]" started-at="2026-02-19T16:09:09 IST" name="tearDown" finished-at="2026-02-19T16:09:09 IST" duration-ms="318" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.tests.FlightBookingTest@550a1967]" started-at="2026-02-25T22:30:58 IST" name="tearDown" finished-at="2026-02-25T22:31:00 IST" duration-ms="1977" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.blazedemo.tests.FlightBookingTest -->
       <class name="com.blazedemo.tests.TC03CompleteFlightBooking">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.tests.TC03CompleteFlightBooking@5669c5fb]" started-at="2026-02-19T16:09:20 IST" name="setUp" finished-at="2026-02-19T16:09:24 IST" duration-ms="4144" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.tests.TC03CompleteFlightBooking@5f9678e1]" started-at="2026-02-25T22:31:08 IST" name="setUp" finished-at="2026-02-25T22:31:11 IST" duration-ms="2854" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -388,17 +388,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testcompleteBooking()[pri:0, instance:com.blazedemo.tests.TC03CompleteFlightBooking@5669c5fb]" started-at="2026-02-19T16:09:24 IST" name="testcompleteBooking" finished-at="2026-02-19T16:09:30 IST" duration-ms="5850" status="PASS">
+        <test-method signature="testcompleteBooking()[pri:0, instance:com.blazedemo.tests.TC03CompleteFlightBooking@5f9678e1]" started-at="2026-02-25T22:31:11 IST" name="testcompleteBooking" finished-at="2026-02-25T22:31:17 IST" duration-ms="5962" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcompleteBooking -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.tests.TC03CompleteFlightBooking@5669c5fb]" started-at="2026-02-19T16:09:30 IST" name="tearDown" finished-at="2026-02-19T16:09:30 IST" duration-ms="232" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.tests.TC03CompleteFlightBooking@5f9678e1]" started-at="2026-02-25T22:31:17 IST" name="tearDown" finished-at="2026-02-25T22:31:17 IST" duration-ms="238" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.blazedemo.tests.TC03CompleteFlightBooking -->
       <class name="com.blazedemo.tests.TC02SearchFlightWithValidCities">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.tests.TC02SearchFlightWithValidCities@56113384]" started-at="2026-02-19T16:09:13 IST" name="setUp" finished-at="2026-02-19T16:09:18 IST" duration-ms="5165" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.tests.TC02SearchFlightWithValidCities@373ebf74]" started-at="2026-02-25T22:31:03 IST" name="setUp" finished-at="2026-02-25T22:31:06 IST" duration-ms="2430" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -414,17 +414,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="searchFlightTest()[pri:0, instance:com.blazedemo.tests.TC02SearchFlightWithValidCities@56113384]" started-at="2026-02-19T16:09:18 IST" name="searchFlightTest" finished-at="2026-02-19T16:09:20 IST" duration-ms="1726" status="PASS">
+        <test-method signature="searchFlightTest()[pri:0, instance:com.blazedemo.tests.TC02SearchFlightWithValidCities@373ebf74]" started-at="2026-02-25T22:31:06 IST" name="searchFlightTest" finished-at="2026-02-25T22:31:08 IST" duration-ms="1833" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchFlightTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.tests.TC02SearchFlightWithValidCities@56113384]" started-at="2026-02-19T16:09:20 IST" name="tearDown" finished-at="2026-02-19T16:09:20 IST" duration-ms="211" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.tests.TC02SearchFlightWithValidCities@373ebf74]" started-at="2026-02-25T22:31:08 IST" name="tearDown" finished-at="2026-02-25T22:31:08 IST" duration-ms="223" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.blazedemo.tests.TC02SearchFlightWithValidCities -->
       <class name="com.blazedemo.tests.TC06InvalidCreditCardCharacter">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.tests.TC06InvalidCreditCardCharacter@c4ed84]" started-at="2026-02-19T16:10:18 IST" name="setUp" finished-at="2026-02-19T16:10:20 IST" duration-ms="2427" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.tests.TC06InvalidCreditCardCharacter@5a9d6f02]" started-at="2026-02-25T22:32:09 IST" name="setUp" finished-at="2026-02-25T22:32:12 IST" duration-ms="2969" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -440,7 +440,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testInvalidCardCharaters()[pri:0, instance:com.blazedemo.tests.TC06InvalidCreditCardCharacter@c4ed84]" started-at="2026-02-19T16:10:20 IST" name="testInvalidCardCharaters" finished-at="2026-02-19T16:10:26 IST" duration-ms="6062" status="FAIL">
+        <test-method signature="testInvalidCardCharaters()[pri:0, instance:com.blazedemo.tests.TC06InvalidCreditCardCharacter@5a9d6f02]" started-at="2026-02-25T22:32:12 IST" name="testInvalidCardCharaters" finished-at="2026-02-25T22:32:18 IST" duration-ms="5478" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[BUG: Booking succeeded even with invalid card Charaters expected [false] but found [true]]]>
@@ -450,7 +450,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1590)
 at org.testng.Assert.assertFalse(Assert.java:79)
-at com.blazedemo.tests.TC06InvalidCreditCardCharacter.testInvalidCardCharaters(TC06InvalidCreditCardCharacter.java:57)
+at com.blazedemo.tests.TC06InvalidCreditCardCharacter.testInvalidCardCharaters(TC06InvalidCreditCardCharacter.java:56)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -483,13 +483,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidCardCharaters -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.tests.TC06InvalidCreditCardCharacter@c4ed84]" started-at="2026-02-19T16:10:26 IST" name="tearDown" finished-at="2026-02-19T16:10:27 IST" duration-ms="250" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.tests.TC06InvalidCreditCardCharacter@5a9d6f02]" started-at="2026-02-25T22:32:18 IST" name="tearDown" finished-at="2026-02-25T22:32:18 IST" duration-ms="197" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.blazedemo.tests.TC06InvalidCreditCardCharacter -->
       <class name="com.blazedemo.tests.TC05BlankCreditCard">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.tests.TC05BlankCreditCard@5f9678e1]" started-at="2026-02-19T16:09:59 IST" name="setUp" finished-at="2026-02-19T16:10:02 IST" duration-ms="2588" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.blazedemo.tests.TC05BlankCreditCard@189aa67a]" started-at="2026-02-25T22:31:49 IST" name="setUp" finished-at="2026-02-25T22:31:53 IST" duration-ms="4752" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -505,7 +505,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testBlankCreditcard()[pri:0, instance:com.blazedemo.tests.TC05BlankCreditCard@5f9678e1]" started-at="2026-02-19T16:10:02 IST" name="testBlankCreditcard" finished-at="2026-02-19T16:10:17 IST" duration-ms="15389" status="FAIL">
+        <test-method signature="testBlankCreditcard()[pri:0, instance:com.blazedemo.tests.TC05BlankCreditCard@189aa67a]" started-at="2026-02-25T22:31:53 IST" name="testBlankCreditcard" finished-at="2026-02-25T22:32:09 IST" duration-ms="15600" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[BUG: Booking succeeded even with blank credit card details expected [false] but found [true]]]>
@@ -548,7 +548,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBlankCreditcard -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.tests.TC05BlankCreditCard@5f9678e1]" started-at="2026-02-19T16:10:17 IST" name="tearDown" finished-at="2026-02-19T16:10:18 IST" duration-ms="245" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.blazedemo.tests.TC05BlankCreditCard@189aa67a]" started-at="2026-02-25T22:32:09 IST" name="tearDown" finished-at="2026-02-25T22:32:09 IST" duration-ms="228" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

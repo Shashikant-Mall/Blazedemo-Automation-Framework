@@ -2,7 +2,6 @@ package com.blazedemo.tests;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import com.blazedemo.pages.HomePage;
 import com.blazedemo.utils.BaseTest;
 

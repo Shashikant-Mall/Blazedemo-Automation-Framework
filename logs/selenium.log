@@ -3378,3 +3378,201 @@ Session ID: 29aca891999030f7d4759fa998561d4c
 2026-02-19 16:10:31 INFO  com.blazedemo.tests.TC07SameDepartAndDestinCity - Test started: Same Departure and Destination City
 2026-02-19 16:10:31 INFO  com.blazedemo.tests.TC07SameDepartAndDestinCity - Checking if Paris exists in destination dropdown
 2026-02-19 16:10:32 INFO  com.blazedemo.tests.TC07SameDepartAndDestinCity - Browser closed
+2026-02-19 18:36:46 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Dell\eclipse-workspace\Blazedemo-Automation_Framework\master.xml
+
+2026-02-19 18:36:50 INFO  com.blazedemo.tests.FlightBookingTest - Browser launched and application opened
+2026-02-19 18:36:50 INFO  com.blazedemo.tests.FlightBookingTest - Running on OS: Windows Browser: chrome
+2026-02-19 18:36:50 INFO  com.blazedemo.tests.FlightBookingTest - Starting flight booking test
+2026-02-19 18:36:50 INFO  com.blazedemo.tests.FlightBookingTest - Selecting cities
+2026-02-19 18:36:51 INFO  com.blazedemo.tests.FlightBookingTest - Searching flights
+2026-02-19 18:36:51 INFO  com.blazedemo.tests.FlightBookingTest - Choosing flight
+2026-02-19 18:36:52 INFO  com.blazedemo.tests.FlightBookingTest - Entering passenger details
+2026-02-19 18:36:55 INFO  com.blazedemo.tests.FlightBookingTest - Submitting purchase
+2026-02-19 18:36:55 INFO  com.blazedemo.tests.FlightBookingTest - Verifying booking success
+2026-02-19 18:36:56 INFO  com.blazedemo.tests.FlightBookingTest - Flight booking test PASSED
+2026-02-19 18:36:56 INFO  com.blazedemo.tests.FlightBookingTest - Browser closed
+2026-02-19 18:36:59 INFO  com.blazedemo.tests.TC01VerifyHomePageLoadsAndDropdownVisible - Browser launched and application opened
+2026-02-19 18:36:59 INFO  com.blazedemo.tests.TC01VerifyHomePageLoadsAndDropdownVisible - Running on OS: Windows Browser: chrome
+2026-02-19 18:36:59 INFO  com.blazedemo.tests.TC01VerifyHomePageLoadsAndDropdownVisible - Starting HomePage and Dropdown load test
+2026-02-19 18:36:59 INFO  com.blazedemo.tests.TC01VerifyHomePageLoadsAndDropdownVisible - Home page Loaded
+2026-02-19 18:36:59 INFO  com.blazedemo.tests.TC01VerifyHomePageLoadsAndDropdownVisible - Cities Dropdowns visible
+2026-02-19 18:36:59 INFO  com.blazedemo.tests.TC01VerifyHomePageLoadsAndDropdownVisible - Completed HomePage and Dropdown load test
+2026-02-19 18:36:59 INFO  com.blazedemo.tests.TC01VerifyHomePageLoadsAndDropdownVisible - Browser closed
+2026-02-19 18:37:03 INFO  com.blazedemo.tests.TC02SearchFlightWithValidCities - Browser launched and application opened
+2026-02-19 18:37:03 INFO  com.blazedemo.tests.TC02SearchFlightWithValidCities - Running on OS: Windows Browser: chrome
+2026-02-19 18:37:03 INFO  com.blazedemo.tests.TC02SearchFlightWithValidCities - Selecting departure and destination cities
+2026-02-19 18:37:04 INFO  com.blazedemo.tests.TC02SearchFlightWithValidCities - Clicking Find Flights
+2026-02-19 18:37:05 INFO  com.blazedemo.tests.TC02SearchFlightWithValidCities - Browser closed
+2026-02-19 18:37:08 INFO  com.blazedemo.tests.TC03CompleteFlightBooking - Browser launched and application opened
+2026-02-19 18:37:08 INFO  com.blazedemo.tests.TC03CompleteFlightBooking - Running on OS: Windows Browser: chrome
+2026-02-19 18:37:08 INFO  com.blazedemo.tests.TC03CompleteFlightBooking - Starting flight booking test
+2026-02-19 18:37:08 INFO  com.blazedemo.tests.TC03CompleteFlightBooking - Selecting cities
+2026-02-19 18:37:08 INFO  com.blazedemo.tests.TC03CompleteFlightBooking - Searching flights
+2026-02-19 18:37:09 INFO  com.blazedemo.tests.TC03CompleteFlightBooking - Choosing flight
+2026-02-19 18:37:10 INFO  com.blazedemo.tests.TC03CompleteFlightBooking - Entering passenger details
+2026-02-19 18:37:12 INFO  com.blazedemo.tests.TC03CompleteFlightBooking - Submitting purchase
+2026-02-19 18:37:13 INFO  com.blazedemo.tests.TC03CompleteFlightBooking - Verifying booking success
+2026-02-19 18:37:13 INFO  com.blazedemo.tests.TC03CompleteFlightBooking - Flight booking test PASSED
+2026-02-19 18:37:14 INFO  com.blazedemo.tests.TC03CompleteFlightBooking - Browser closed
+2026-02-19 18:37:17 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Browser launched and application opened
+2026-02-19 18:37:17 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Running on OS: Windows Browser: chrome
+2026-02-19 18:37:17 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Starting flight booking test
+2026-02-19 18:37:17 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Selecting cities
+2026-02-19 18:37:18 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Searching flights
+2026-02-19 18:37:19 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Choosing flight
+2026-02-19 18:37:19 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Entering passenger details
+2026-02-19 18:37:22 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Submitting purchase
+2026-02-19 18:37:23 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Verifying booking success
+2026-02-19 18:37:23 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Flight booking test PASSED
+2026-02-19 18:37:23 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Browser closed
+2026-02-19 18:37:26 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Browser launched and application opened
+2026-02-19 18:37:26 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Running on OS: Windows Browser: chrome
+2026-02-19 18:37:26 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Starting flight booking test
+2026-02-19 18:37:26 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Selecting cities
+2026-02-19 18:37:27 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Searching flights
+2026-02-19 18:37:27 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Choosing flight
+2026-02-19 18:37:28 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Entering passenger details
+2026-02-19 18:37:31 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Submitting purchase
+2026-02-19 18:37:32 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Verifying booking success
+2026-02-19 18:37:32 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Flight booking test PASSED
+2026-02-19 18:37:32 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Browser closed
+2026-02-19 18:37:34 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Browser launched and application opened
+2026-02-19 18:37:34 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Running on OS: Windows Browser: chrome
+2026-02-19 18:37:34 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Starting flight booking test
+2026-02-19 18:37:34 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Selecting cities
+2026-02-19 18:37:35 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Searching flights
+2026-02-19 18:37:36 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Choosing flight
+2026-02-19 18:37:36 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Entering passenger details
+2026-02-19 18:37:39 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Submitting purchase
+2026-02-19 18:37:39 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Verifying booking success
+2026-02-19 18:37:40 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Flight booking test PASSED
+2026-02-19 18:37:40 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Browser closed
+2026-02-19 18:37:43 INFO  com.blazedemo.tests.TC05BlankCreditCard - Browser launched and application opened
+2026-02-19 18:37:43 INFO  com.blazedemo.tests.TC05BlankCreditCard - Running on OS: Windows Browser: chrome
+2026-02-19 18:37:43 INFO  com.blazedemo.tests.TC05BlankCreditCard - ===== Starting TC05BlankCreditCard =====
+2026-02-19 18:37:43 INFO  com.blazedemo.tests.TC05BlankCreditCard - Selecting cities
+2026-02-19 18:37:43 INFO  com.blazedemo.tests.TC05BlankCreditCard - Searching flights
+2026-02-19 18:37:44 INFO  com.blazedemo.tests.TC05BlankCreditCard - Choosing flight
+2026-02-19 18:37:45 INFO  com.blazedemo.tests.TC05BlankCreditCard - Entering passenger details
+2026-02-19 18:37:46 INFO  com.blazedemo.tests.TC05BlankCreditCard - Leaving credit card details blank intentionally
+2026-02-19 18:37:57 INFO  com.blazedemo.tests.TC05BlankCreditCard - Submitting purchase
+2026-02-19 18:37:58 INFO  com.blazedemo.tests.TC05BlankCreditCard - Checking booking status
+2026-02-19 18:37:58 INFO  com.blazedemo.tests.TC05BlankCreditCard - Booking success status: true
+2026-02-19 18:37:59 INFO  com.blazedemo.tests.TC05BlankCreditCard - Browser closed
+2026-02-19 18:38:01 INFO  com.blazedemo.tests.TC06InvalidCreditCardCharacter - Browser launched and application opened
+2026-02-19 18:38:01 INFO  com.blazedemo.tests.TC06InvalidCreditCardCharacter - Running on OS: Windows Browser: chrome
+2026-02-19 18:38:01 INFO  com.blazedemo.tests.TC06InvalidCreditCardCharacter - ===== Starting TC06InvalidCreditCardCharacter =====
+2026-02-19 18:38:01 INFO  com.blazedemo.tests.TC06InvalidCreditCardCharacter - Selecting cities
+2026-02-19 18:38:02 INFO  com.blazedemo.tests.TC06InvalidCreditCardCharacter - Searching flights
+2026-02-19 18:38:03 INFO  com.blazedemo.tests.TC06InvalidCreditCardCharacter - Choosing flight
+2026-02-19 18:38:04 INFO  com.blazedemo.tests.TC06InvalidCreditCardCharacter - Entering passenger details
+2026-02-19 18:38:05 INFO  com.blazedemo.tests.TC06InvalidCreditCardCharacter - Entering INVALID credit card data intentionally
+2026-02-19 18:38:06 INFO  com.blazedemo.tests.TC06InvalidCreditCardCharacter - Submitting purchase
+2026-02-19 18:38:07 INFO  com.blazedemo.tests.TC06InvalidCreditCardCharacter - Checking booking status
+2026-02-19 18:38:07 INFO  com.blazedemo.tests.TC06InvalidCreditCardCharacter - Booking success status: true
+2026-02-19 18:38:08 INFO  com.blazedemo.tests.TC06InvalidCreditCardCharacter - Browser closed
+2026-02-19 18:38:10 INFO  com.blazedemo.tests.TC07SameDepartAndDestinCity - Browser launched and application opened
+2026-02-19 18:38:10 INFO  com.blazedemo.tests.TC07SameDepartAndDestinCity - Running on OS: Windows Browser: chrome
+2026-02-19 18:38:10 INFO  com.blazedemo.tests.TC07SameDepartAndDestinCity - Test started: Same Departure and Destination City
+2026-02-19 18:38:10 INFO  com.blazedemo.tests.TC07SameDepartAndDestinCity - Checking if Paris exists in destination dropdown
+2026-02-19 18:38:11 INFO  com.blazedemo.tests.TC07SameDepartAndDestinCity - Browser closed
+2026-02-25 22:30:42 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Dell\eclipse-workspace\Blazedemo-Automation_Framework\master.xml
+
+2026-02-25 22:30:52 INFO  com.blazedemo.tests.FlightBookingTest - Browser launched and application opened
+2026-02-25 22:30:52 INFO  com.blazedemo.tests.FlightBookingTest - Running on OS: Windows Browser: chrome
+2026-02-25 22:30:52 INFO  com.blazedemo.tests.FlightBookingTest - Starting flight booking test
+2026-02-25 22:30:52 INFO  com.blazedemo.tests.FlightBookingTest - Selecting cities
+2026-02-25 22:30:53 INFO  com.blazedemo.tests.FlightBookingTest - Searching flights
+2026-02-25 22:30:54 INFO  com.blazedemo.tests.FlightBookingTest - Choosing flight
+2026-02-25 22:30:55 INFO  com.blazedemo.tests.FlightBookingTest - Entering passenger details
+2026-02-25 22:30:57 INFO  com.blazedemo.tests.FlightBookingTest - Submitting purchase
+2026-02-25 22:30:58 INFO  com.blazedemo.tests.FlightBookingTest - Verifying booking success
+2026-02-25 22:30:58 INFO  com.blazedemo.tests.FlightBookingTest - Flight booking test PASSED
+2026-02-25 22:31:00 INFO  com.blazedemo.tests.FlightBookingTest - Browser closed
+2026-02-25 22:31:03 INFO  com.blazedemo.tests.TC01VerifyHomePageLoadsAndDropdownVisible - Browser launched and application opened
+2026-02-25 22:31:03 INFO  com.blazedemo.tests.TC01VerifyHomePageLoadsAndDropdownVisible - Running on OS: Windows Browser: chrome
+2026-02-25 22:31:03 INFO  com.blazedemo.tests.TC01VerifyHomePageLoadsAndDropdownVisible - Starting HomePage and Dropdown load test
+2026-02-25 22:31:03 INFO  com.blazedemo.tests.TC01VerifyHomePageLoadsAndDropdownVisible - Home page Loaded
+2026-02-25 22:31:03 INFO  com.blazedemo.tests.TC01VerifyHomePageLoadsAndDropdownVisible - Cities Dropdowns visible
+2026-02-25 22:31:03 INFO  com.blazedemo.tests.TC01VerifyHomePageLoadsAndDropdownVisible - Completed HomePage and Dropdown load test
+2026-02-25 22:31:03 INFO  com.blazedemo.tests.TC01VerifyHomePageLoadsAndDropdownVisible - Browser closed
+2026-02-25 22:31:06 INFO  com.blazedemo.tests.TC02SearchFlightWithValidCities - Browser launched and application opened
+2026-02-25 22:31:06 INFO  com.blazedemo.tests.TC02SearchFlightWithValidCities - Running on OS: Windows Browser: chrome
+2026-02-25 22:31:06 INFO  com.blazedemo.tests.TC02SearchFlightWithValidCities - Selecting departure and destination cities
+2026-02-25 22:31:07 INFO  com.blazedemo.tests.TC02SearchFlightWithValidCities - Clicking Find Flights
+2026-02-25 22:31:08 INFO  com.blazedemo.tests.TC02SearchFlightWithValidCities - Browser closed
+2026-02-25 22:31:11 INFO  com.blazedemo.tests.TC03CompleteFlightBooking - Browser launched and application opened
+2026-02-25 22:31:11 INFO  com.blazedemo.tests.TC03CompleteFlightBooking - Running on OS: Windows Browser: chrome
+2026-02-25 22:31:11 INFO  com.blazedemo.tests.TC03CompleteFlightBooking - Starting flight booking test
+2026-02-25 22:31:11 INFO  com.blazedemo.tests.TC03CompleteFlightBooking - Selecting cities
+2026-02-25 22:31:11 INFO  com.blazedemo.tests.TC03CompleteFlightBooking - Searching flights
+2026-02-25 22:31:12 INFO  com.blazedemo.tests.TC03CompleteFlightBooking - Choosing flight
+2026-02-25 22:31:13 INFO  com.blazedemo.tests.TC03CompleteFlightBooking - Entering passenger details
+2026-02-25 22:31:16 INFO  com.blazedemo.tests.TC03CompleteFlightBooking - Submitting purchase
+2026-02-25 22:31:17 INFO  com.blazedemo.tests.TC03CompleteFlightBooking - Verifying booking success
+2026-02-25 22:31:17 INFO  com.blazedemo.tests.TC03CompleteFlightBooking - Flight booking test PASSED
+2026-02-25 22:31:17 INFO  com.blazedemo.tests.TC03CompleteFlightBooking - Browser closed
+2026-02-25 22:31:25 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Browser launched and application opened
+2026-02-25 22:31:25 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Running on OS: Windows Browser: chrome
+2026-02-25 22:31:25 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Starting flight booking test
+2026-02-25 22:31:25 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Selecting cities
+2026-02-25 22:31:25 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Searching flights
+2026-02-25 22:31:26 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Choosing flight
+2026-02-25 22:31:27 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Entering passenger details
+2026-02-25 22:31:29 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Submitting purchase
+2026-02-25 22:31:30 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Verifying booking success
+2026-02-25 22:31:30 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Flight booking test PASSED
+2026-02-25 22:31:30 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Browser closed
+2026-02-25 22:31:33 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Browser launched and application opened
+2026-02-25 22:31:33 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Running on OS: Windows Browser: chrome
+2026-02-25 22:31:33 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Starting flight booking test
+2026-02-25 22:31:33 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Selecting cities
+2026-02-25 22:31:34 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Searching flights
+2026-02-25 22:31:34 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Choosing flight
+2026-02-25 22:31:36 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Entering passenger details
+2026-02-25 22:31:38 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Submitting purchase
+2026-02-25 22:31:38 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Verifying booking success
+2026-02-25 22:31:39 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Flight booking test PASSED
+2026-02-25 22:31:39 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Browser closed
+2026-02-25 22:31:42 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Browser launched and application opened
+2026-02-25 22:31:42 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Running on OS: Windows Browser: chrome
+2026-02-25 22:31:42 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Starting flight booking test
+2026-02-25 22:31:42 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Selecting cities
+2026-02-25 22:31:43 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Searching flights
+2026-02-25 22:31:44 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Choosing flight
+2026-02-25 22:31:45 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Entering passenger details
+2026-02-25 22:31:47 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Submitting purchase
+2026-02-25 22:31:48 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Verifying booking success
+2026-02-25 22:31:48 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Flight booking test PASSED
+2026-02-25 22:31:49 INFO  com.blazedemo.tests.TC04FlightBookingDataDrivenTest - Browser closed
+2026-02-25 22:31:53 INFO  com.blazedemo.tests.TC05BlankCreditCard - Browser launched and application opened
+2026-02-25 22:31:53 INFO  com.blazedemo.tests.TC05BlankCreditCard - Running on OS: Windows Browser: chrome
+2026-02-25 22:31:53 INFO  com.blazedemo.tests.TC05BlankCreditCard - ===== Starting TC05BlankCreditCard =====
+2026-02-25 22:31:53 INFO  com.blazedemo.tests.TC05BlankCreditCard - Selecting cities
+2026-02-25 22:31:54 INFO  com.blazedemo.tests.TC05BlankCreditCard - Searching flights
+2026-02-25 22:31:55 INFO  com.blazedemo.tests.TC05BlankCreditCard - Choosing flight
+2026-02-25 22:31:55 INFO  com.blazedemo.tests.TC05BlankCreditCard - Entering passenger details
+2026-02-25 22:31:57 INFO  com.blazedemo.tests.TC05BlankCreditCard - Leaving credit card details blank intentionally
+2026-02-25 22:32:08 INFO  com.blazedemo.tests.TC05BlankCreditCard - Submitting purchase
+2026-02-25 22:32:08 INFO  com.blazedemo.tests.TC05BlankCreditCard - Checking booking status
+2026-02-25 22:32:09 INFO  com.blazedemo.tests.TC05BlankCreditCard - Booking success status: true
+2026-02-25 22:32:09 INFO  com.blazedemo.tests.TC05BlankCreditCard - Browser closed
+2026-02-25 22:32:12 INFO  com.blazedemo.tests.TC06InvalidCreditCardCharacter - Browser launched and application opened
+2026-02-25 22:32:12 INFO  com.blazedemo.tests.TC06InvalidCreditCardCharacter - Running on OS: Windows Browser: chrome
+2026-02-25 22:32:12 INFO  com.blazedemo.tests.TC06InvalidCreditCardCharacter - ===== Starting TC06InvalidCreditCardCharacter =====
+2026-02-25 22:32:12 INFO  com.blazedemo.tests.TC06InvalidCreditCardCharacter - Selecting cities
+2026-02-25 22:32:13 INFO  com.blazedemo.tests.TC06InvalidCreditCardCharacter - Searching flights
+2026-02-25 22:32:14 INFO  com.blazedemo.tests.TC06InvalidCreditCardCharacter - Choosing flight
+2026-02-25 22:32:14 INFO  com.blazedemo.tests.TC06InvalidCreditCardCharacter - Entering passenger details
+2026-02-25 22:32:16 INFO  com.blazedemo.tests.TC06InvalidCreditCardCharacter - Entering INVALID credit card data intentionally
+2026-02-25 22:32:17 INFO  com.blazedemo.tests.TC06InvalidCreditCardCharacter - Submitting purchase
+2026-02-25 22:32:18 INFO  com.blazedemo.tests.TC06InvalidCreditCardCharacter - Checking booking status
+2026-02-25 22:32:18 INFO  com.blazedemo.tests.TC06InvalidCreditCardCharacter - Booking success status: true
+2026-02-25 22:32:18 INFO  com.blazedemo.tests.TC06InvalidCreditCardCharacter - Browser closed
+2026-02-25 22:32:21 INFO  com.blazedemo.tests.TC07SameDepartAndDestinCity - Browser launched and application opened
+2026-02-25 22:32:21 INFO  com.blazedemo.tests.TC07SameDepartAndDestinCity - Running on OS: Windows Browser: chrome
+2026-02-25 22:32:21 INFO  com.blazedemo.tests.TC07SameDepartAndDestinCity - Test started: Same Departure and Destination City
+2026-02-25 22:32:21 INFO  com.blazedemo.tests.TC07SameDepartAndDestinCity - Checking if Paris exists in destination dropdown
+2026-02-25 22:32:21 INFO  com.blazedemo.tests.TC07SameDepartAndDestinCity - Browser closed

@@ -1,7 +1,6 @@
 package com.blazedemo.utils;
 
 import java.io.IOException;
-
 import org.testng.annotations.*;
 
 public class DataProviders {

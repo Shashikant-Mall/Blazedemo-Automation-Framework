@@ -25,8 +25,8 @@
       <class name="com.blazedemo.tests.TC05BlankCreditCard">
         <methods>
           <include name="tearDown"/>
-          <include name="setUp"/>
           <include name="testBlankCreditcard"/>
+          <include name="setUp"/>
         </methods>
       </class> <!-- com.blazedemo.tests.TC05BlankCreditCard -->
     </classes>
