@@ -7,4 +7,6 @@ TC06InvalidCreditCardCharacters -failed
 BUG: Booking succeeded even with invalid card Charaters expected [false] but found [true]
 
 TC07SameDepartAndDestin -failed  
-Paris not available in destination dropdown expected [true] but found [false]
+Paris not available in destination dropdown expected [true] but found [false] 
+
+This is for example.
